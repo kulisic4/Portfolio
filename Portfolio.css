@@ -1,0 +1,31 @@
+div {
+    display: inline-block;
+}
+.d {
+   font-size: 100px;
+}
+.k {
+    font-size: 100px;
+}
+.ul-top {
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.about , .projects , .contact {
+    display: inline;
+    margin: 0px 100px -20px 100px;
+}
+nav {
+    
+}
+#navtop {
+    display: inline-block;
+    justify-content: center;
+    position: fixed;
+    top: 50px;
+}
+.ul-side {
+    list-style: none;
+    float: right;
+}
