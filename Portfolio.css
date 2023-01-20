@@ -1,3 +1,11 @@
+body {
+    background-color: rgb(137, 162, 223);
+}
+main {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: rgb(137, 162, 223);
+}
 div {
     display: inline-block;
 }
@@ -9,23 +17,51 @@ div {
 }
 .ul-top {
     list-style: none;
+    margin: 45px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.ul-side {
+    list-style: none;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
 .about , .projects , .contact {
     display: inline;
-    margin: 0px 100px -20px 100px;
+    margin: 0px 211px -20px 100px;
 }
-nav {
-    
+.a-about , .a-projects , .a-contact {
+    color:rgb(242, 250, 242);
+    font-size: 20px;
 }
 #navtop {
     display: inline-block;
     justify-content: center;
     position: fixed;
-    top: 50px;
+    height: 110px;
+    margin-right: 85px;
+    margin-top: -8px;
+    background-color: rgb(33, 33, 66);
+    border-radius: 0px 0px 20px 20px;
 }
-.ul-side {
-    list-style: none;
+#navside {
     float: right;
+    background-color: (137, 162, 223);
+    width: 78px;
+}
+.github , .twitter , .linkedin , .email {
+    margin: 45px 0px 0px 0px;
+    color: rgb(242, 250, 242);
+}
+i {
+    height: 150px;
+    margin-left: 35px;
+}
+.section1 , .section2 , .section3 {
+    height: 250px;
+    width: 1345px;
+}
+h1 {
+    display: block;
+    margin: 19.920px 80px 19.920px 30px;
+    background-color: ;
 }
