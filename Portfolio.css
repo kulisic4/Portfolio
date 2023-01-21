@@ -1,19 +1,21 @@
 body {
-    background-color: rgb(137, 162, 223);
+    background-color: rgb(171, 171, 171);
 }
 main {
     margin-left: -8px;
     margin-right: -8px;
-    background-color: rgb(137, 162, 223);
+    background-color: rgb(171, 171, 171);
 }
 div {
     display: inline-block;
 }
 .d {
    font-size: 100px;
+   color:rgb(13, 45, 67);
 }
 .k {
     font-size: 100px;
+    color: rgb(13, 45, 67)
 }
 .ul-top {
     list-style: none;
@@ -40,13 +42,16 @@ div {
     height: 110px;
     margin-right: 85px;
     margin-top: -8px;
-    background-color: rgb(33, 33, 66);
+    background-color: rgb(27, 26, 28);
     border-radius: 0px 0px 20px 20px;
 }
 #navside {
     float: right;
-    background-color: (137, 162, 223);
+    background-color: black;
     width: 78px;
+    margin-right: -8px;
+    margin-left: 8px;
+    margin-top: -8px;;
 }
 .github , .twitter , .linkedin , .email {
     margin: 45px 0px 0px 0px;
@@ -57,7 +62,7 @@ i {
     margin-left: 35px;
 }
 .section1 , .section2 , .section3 {
-    height: 250px;
+    height: 190px;
     width: 1345px;
 }
 h1 {
