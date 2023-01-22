@@ -1,48 +1,35 @@
 body {
-    background-color: rgb(171, 171, 171);
-}
-main {
-    margin-left: -8px;
-    margin-right: -8px;
-    background-color: rgb(171, 171, 171);
+    background-image: linear-gradient(rgb(151, 181, 230) , rgb(106, 143, 197) , rgb(26, 42, 82));
 }
 div {
     display: inline-block;
 }
 .d {
    font-size: 100px;
-   color:rgb(13, 45, 67);
+   color:rgb(0, 0, 0);
 }
 .k {
     font-size: 100px;
-    color: rgb(13, 45, 67)
+    color: rgb(0, 0, 0);
 }
-.ul-top {
-    list-style: none;
-    margin: 45px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+.d,.k:hover {
+    cursor: pointer;
 }
 .ul-side {
     list-style: none;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
-.about , .projects , .contact {
-    display: inline;
-    margin: 0px 211px -20px 100px;
-}
-.a-about , .a-projects , .a-contact {
-    color:rgb(242, 250, 242);
-    font-size: 20px;
-}
 #navtop {
     display: inline-block;
     justify-content: center;
     position: fixed;
-    height: 110px;
+    height: 100px;
+    width: 1210px;
     margin-right: 85px;
+    margin-left: 20px;
     margin-top: -8px;
-    background-color: rgb(27, 26, 28);
+    background-color: rgb(0, 0, 0);
     border-radius: 0px 0px 20px 20px;
 }
 #navside {
@@ -69,4 +56,29 @@ h1 {
     display: block;
     margin: 19.920px 80px 19.920px 30px;
     background-color: ;
+}
+.nav-text {
+    color:rgb(85, 85, 85);
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    letter-spacing: 0.5rem;
+    height: 110px;
+    width: 1200px;
+    margin-right: 85px;
+    margin-left: 20px;
+}
+#anchor {
+    color:rgb(170, 172, 170);
+}
+#anchor:hover {
+    cursor: pointer;
+    color: rgb(65, 67, 65);
+    background-image: linear-gradient(rgb(151, 181, 230) , rgb(106, 143, 197) , rgb(26, 42, 82));
+}
+li:hover {
+    cursor: pointer;
+}
+text:hover {
+    cursor: pointer;
 }
