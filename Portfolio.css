@@ -7,6 +7,13 @@ body {
 div {
     display: inline-block;
 }
+.div-letters {
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+h1 {
+    scale: 0;
+}
 .d {
    font-size: 100px;
    color:rgb(0, 0, 0);
