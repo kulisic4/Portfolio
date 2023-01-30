@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(to right,  rgb(151, 181, 230) , rgb(106, 143, 197) , rgb(26, 42, 82));
+}
+
+h1 {
+    background-image: linear-gradient(to right,  rgb(151, 181, 230) , rgb(106, 143, 197) , rgb(26, 42, 82));
+    position: fixed;
+    padding: 30px 725px;
+    margin-right: 7px;
+    margin-left: -7px;
+    margin-top: -8px;
+}
