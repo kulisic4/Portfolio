@@ -10,6 +10,22 @@ h1 {
     margin-left: -7px;
     margin-top: -8px;
 }
+div {
+    display: inline-block;
+}
 .text-div {
-   
+    position: relative;
+    width: 700px;
+    height: 400px;
+    top: 200px;
+    left: 50px;
+    background-color: black;
+}
+.img-div {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    top: -186px;
+    left: 50px;
+    background-color: black;
 }
