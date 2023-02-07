@@ -69,10 +69,12 @@
         </li>
       </ul>
     </nav>
-    <div class="menu">
-      <div id="menu" class="about"></div>
-      <div id="menu" class="projects"></div>
-      <div id="menu" class="contact"></div>
+    <div class="float">
+      <div class="menu">
+        <div id="menu" class="about"></div>
+        <div id="menu" class="projects"></div>
+        <div id="menu" class="contact"></div>
+      </div>
     </div>
     <section></section>
     <section class="section1">
@@ -97,12 +99,15 @@
       <p class="apple-text">
         Welcome to my first project ever! I was learning about HTML and CSS for
         about a month, and those are the results. With the help of my mentor
-        <a class="projects-anchor" href="https://www.slavo.io/">Slavoljub Popovic</a>, I made a great
-        progress in a short period of time. With help of the right people and
-        persistence you can improve your progress. Here is the video of fully
-        functional Clone Apple Page I made, using only HTML and CSS. Here is
-        also the link of the page so you can try it out yourself
-        <a class="projects-anchor" href="https://kulisic4.github.io/applelandingpagesample/"
+        <a class="projects-anchor" href="https://www.slavo.io/"
+          >Slavoljub Popovic</a
+        >, I made a great progress in a short period of time. With help of the
+        right people and persistence you can improve your progress. Here is the
+        video of fully functional Clone Apple Page I made, using only HTML and
+        CSS. Here is also the link of the page so you can try it out yourself
+        <a
+          class="projects-anchor"
+          href="https://kulisic4.github.io/applelandingpagesample/"
           >APPLE CLONE PAGE</a
         >
       </p>
@@ -113,6 +118,53 @@
     </section>
     <section class="section3">
       <h1>CONTACT</h1>
+      <form action="submit-form.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <input
+            type="text"
+            class="form-control"
+            id="subject"
+            name="subject"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea
+            class="form-control"
+            id="message"
+            name="message"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <input type="submit" class="btn btn-primary" value="Submit" />
+      </form>
     </section>
   </body>
 </html>

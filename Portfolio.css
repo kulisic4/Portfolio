@@ -158,5 +158,81 @@ text:hover {
     top: 100px;
 }
 .projects-anchor {
-  color:rgb(16, 1, 63)
+  color:rgb(51, 44, 66);
+  text-decoration: none;
 }
+form {
+    width: 700px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    position: relative;
+    left: 70px;
+    top: 50px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:rgb(24, 14, 91); 
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea.form-control {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  #message {
+    width: 300%;
+  }
+  input[type="submit"].btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }  
+.menu {
+    width: 100px;
+    height: 70px;
+    background-color:rgb(222, 222, 222);
+    color: rgb(185, 185, 195);
+    position: fixed;
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: float 6s ease-in-out infinite;
+    border-radius: 20px;
+  }
+
+  #menu {
+    position: relative;
+    top: 23px;
+    left: 33px;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(-50%) translateY(-30px);
+    }
+    50% {
+      transform: translateY(-50%) translateY(30px);
+    }
+    100% {
+      transform: translateY(-50%) translateY(-30px);
+    }
+  }
+  
