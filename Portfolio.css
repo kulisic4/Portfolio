@@ -58,7 +58,7 @@ section {
     position: fixed;
     height: 100px;
     width: 1210px;
-    top: 5px;
+    top: 0px;
     left: 180px;
     background-color: rgb(0, 0, 0);
     border-radius: 0px 0px 20px 20px;
@@ -73,7 +73,7 @@ section {
     top: -0px;
     position: fixed;
 }
-.github , .twitter , .linkedin , .email {
+.github , .twitter , .linkedin , .youtube {
     margin: 45px 0px 0px 0px;
 }
 i {
@@ -228,8 +228,14 @@ text:hover {
     left: 50px;
 }
 .projects-anchor {
-  color:rgb(4, 2, 2);
+  color:rgb(4, 52, 118);
+  text-decoration: underline;
+}
+.anchor-ab , .anchor-proj , .anchor-cont {
   text-decoration: none;
+}
+.about-li:active , .projects-li:active , .contact-li:active {
+  background: rgb(4, 52, 118);
 }
 form {
     width: 700px;
