@@ -337,6 +337,11 @@ form {
 form , .apple-vid , #navtop , .div-letters {
   border-radius: 40px 0px 40px 0px;
 }
+#like-button-root {
+  position: absolute;
+  top: 580px;
+  right: 550px;
+}
   
   /*@keyframes float {
     0% {
