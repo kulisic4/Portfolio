@@ -3,9 +3,12 @@
     scroll-padding-top: 10rem;
 }
 body {
-    background-image: linear-gradient(180deg, rgb(255, 255, 255) , rgb(255, 255, 255), rgb(104, 112, 173), rgb(130, 140, 160), rgb(150, 160, 180) , rgb(22, 0, 96));
-    margin: 0px;
-    
+    /*background-image: linear-gradient(180deg, rgb(255, 255, 255) , rgb(255, 255, 255), rgb(104, 112, 173), rgb(130, 140, 160), rgb(150, 160, 180) , rgb(22, 0, 96));
+    margin: 0px;*/
+    background: linear-gradient(-45deg,rgb(255, 255, 255) , rgb(255, 255, 255), rgb(150, 160, 180) , rgb(22, 0, 96));
+	  background-size: 410% 410%;
+	  animation: gradient 15s ease infinite;
+	  height: 100vh;
 }
 div {
     display: inline-block;
@@ -316,6 +319,7 @@ form {
     padding: 0px;
     left: 10px;
     top: 200px;
+    list-style-type: none; /*Add this because it appeared when added background-animation*/
   }
   .about-li , .projects-li , .contact-li {
     position: relative;
@@ -356,5 +360,18 @@ form , .apple-vid , #navtop , .div-letters {
     }
   }*/
 
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
